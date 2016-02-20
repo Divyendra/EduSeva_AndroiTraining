@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/text_sz_xxlarge"
+        android:layout_margin="@dimen/margin_extra_large"
+        android:text="This is a Dialog Activity. Eg: OLA Trip Bill"
+        />
+
+    <Button
+        android:id="@+id/respondActionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_size"
+        android:background="@drawable/selectable_background_actionbtn"
+        android:textColor="@android:color/white"
+        android:layout_margin="@dimen/margin_extra_large"
+        android:textStyle="bold"
+        android:text="Close Dialog"
+        android:gravity="center"
+        android:onClick="closeDialog"
+        />
+
+</LinearLayout>

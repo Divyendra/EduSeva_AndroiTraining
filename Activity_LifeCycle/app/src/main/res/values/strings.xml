@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activity_LifeCycle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_hideToast">Hide Toast</string>
+    <string name="action_showToast">Show Toast</string>
+</resources>

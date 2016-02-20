@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0099cc"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/rock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ROCK" />
+
+    <CheckBox
+        android:id="@+id/paper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAPER"
+        android:gravity="center"
+        android:checked="true" />
+
+    <CheckBox
+        android:id="@+id/scissors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SCISSORS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="#ffcc12af"
+        android:padding="10dp"
+        android:onClick="buttonClicked"
+        android:text="Player-1 Choice done"
+        />
+
+</LinearLayout>
